@@ -16,7 +16,7 @@ echo #auth strong
 echo #users admin:CL:pass
 echo #allow admin
 echo "auth iponly"
-echo "allow * 1.1.1.1"
+echo "allow * 185.230.141.163"
 
 
 
