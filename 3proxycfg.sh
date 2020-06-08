@@ -16,12 +16,12 @@ echo #auth strong
 echo #users admin:CL:pass
 echo #allow admin
 echo "auth iponly"
-echo "allow * 1.1.1.1"
+echo "allow * 185.230.141.163"
 
 
 
-port=30000
-count=1
+port=30001
+count=250
 for i in `cat ip.list`; do
     echo "proxy -6 -n -a -p$port -i127.0.0.1 -e$i"
     ((port+=1))
